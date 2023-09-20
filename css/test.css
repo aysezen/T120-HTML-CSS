@@ -8,6 +8,7 @@ font-size: 60px;
 color: crimson;
 border: 10px dashed green;
 border-radius: 30px;
+text-shadow: 10px 10px 10px gray;
 }
 
 .sekil{
@@ -17,7 +18,22 @@ color: yellow;
 font-style: italic;
 width: 50%;
 border-radius: 50px;
+box-shadow: -40px -40px 60px red;
 }
 a{
     text-decoration: none;
 }
+
+.container div {
+
+width: 200px;
+height: 200px;
+background-color: blue;
+margin: 15px;
+}
+
+.container{
+    display: flex;
+}
+
+
