@@ -69,7 +69,8 @@ button {
 
 .content {
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
 }
 
 .content .about {
@@ -86,7 +87,62 @@ button {
     height: 500px;
     border: 5px solid rgb(10, 68, 49);
     border-radius: 250px;
-
+    box-shadow: 10px 10px 20px gray;
 
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.section .card {
+    display: flex;
+    border: 5px solid rgb(10, 68, 49);
+    border-radius: 50px;
+    margin: 30px;
+    padding: 20px 30px;
+    background-color: rgb(78, 164, 135);
+    align-items: center;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.section .card .left {
+    flex: 2;
+}
+.section .card .right {
+    flex: 1;
+}
+
+h1 {
+    text-shadow: 7px 7px 10px gray;
+    font-size: 70px;
+}
+
+.content h1 {
+    display: flex;
+    align-items: center;
+}
+
+.content h1 span {
+    width: 50px;
+    height: 50px;
+    background-color:rgb(10, 68, 49) ;
+    border-radius: 25px;
+    margin: 15px;
+}
+.toolbar {
+    margin-top: 30px;
+}
+
+.toolbar a {
+    background-color: rgb(10, 68, 49) ;
+    color: bisque;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+}
