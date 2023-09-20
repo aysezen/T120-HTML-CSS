@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+    color: blueviolet;
+}
+
+h4{
+font-size: 60px;
+color: crimson;
+border: 10px dashed green;
+border-radius: 30px;
+}
+
+.sekil{
+font-size: 30px;
+background-color: darkolivegreen;
+color: yellow;
+font-style: italic;
+width: 50%;
+border-radius: 50px;
+}
+a{
+    text-decoration: none;
+}
